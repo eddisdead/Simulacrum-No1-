@@ -1,0 +1,579 @@
+#line 1 "DumpShaderDefinesAsCommentedCode"
+// #define __ __
+// #define __SHADER_TARGET_MAJOR 6
+// #define __SHADER_TARGET_MINOR 6
+// #define ALLOW_STATIC_LIGHTING 0
+// #define AMPLIFICATIONSHADER 0
+// #define CLEAR_COAT_BOTTOM_NORMAL 0
+// #define COLORED_LIGHT_FUNCTION_ATLAS 0
+// #define COMPILE_SHADERS_FOR_DEVELOPMENT 1
+// #define COMPILER_DEFINE #define
+// #define COMPILER_DXC 1
+// #define COMPILER_FXC 0
+// #define COMPILER_HLSL 1
+// #define COMPILER_SUPPORTS_BARYCENTRIC_INTRINSICS 0
+// #define COMPILER_SUPPORTS_NOINLINE 1
+// #define COMPUTESHADER 1
+// #define DO_CHECK 1
+// #define DO_GUARD_SLOW 0
+// #define DXT5_NORMALMAPS 0
+// #define EARLY_Z_PASS_ONLY_MATERIAL_MASKING 0
+// #define ES3_1_PROFILE 0
+// #define FORWARD_SHADING 0
+// #define FORWARD_SHADING_FORCES_SKYLIGHT_CUBEMAPS_BLENDING 0
+// #define GBUFFER_HAS_DIFFUSE_SAMPLE_OCCLUSION 0
+// #define GBUFFER_HAS_VELOCITY 0
+// #define GBUFFER_REFACTOR 1
+// #define GEOMETRYSHADER 0
+// #define HAS_FIRST_PERSON_GBUFFER_BIT 1
+// #define HAS_INVERTED_Z_BUFFER 1
+// #define INSTANCED_STEREO 0
+// #define IRIS_NORMAL 0
+// #define LEGACY_MATERIAL_ENERGYCONSERVATION 0
+// #define MATERIAL_ROUGHDIFFUSE 0
+// #define MESHSHADER 0
+// #define MOBILE_MULTI_VIEW 0
+// #define MULTI_VIEW 0
+// #define PCG_ATTRIBUTE_HEADER_SIZE_BYTES 8
+// #define PCG_DATA_COLLECTION_HEADER_SIZE_BYTES 4
+// #define PCG_DATA_HEADER_SIZE_BYTES 1036
+// #define PCG_INVALID_DENSITY 340282306073709652508363335590014353408.000000
+// #define PCG_KERNEL_EXECUTED_FLAG -2147483648
+// #define PCG_POINT_BOUNDS_MAX_ID 4
+// #define PCG_POINT_BOUNDS_MIN_ID 3
+// #define PCG_POINT_COLOR_ID 5
+// #define PCG_POINT_DENSITY_ID 6
+// #define PCG_POINT_POSITION_ID 0
+// #define PCG_POINT_ROTATION_ID 1
+// #define PCG_POINT_SCALE_ID 2
+// #define PCG_POINT_SEED_ID 7
+// #define PCG_POINT_STEEPNESS_ID 8
+// #define PIXELSHADER 0
+// #define PLATFORM_ALLOW_SCENE_DATA_COMPRESSED_TRANSFORMS 1
+// #define PLATFORM_MAX_SAMPLERS 32
+// #define PLATFORM_SUPPORTS_BARYCENTRICS_SEMANTIC 1
+// #define PLATFORM_SUPPORTS_BINDLESS 0
+// #define PLATFORM_SUPPORTS_BUFFER_LOAD_TYPE_CONVERSION 1
+// #define PLATFORM_SUPPORTS_CALLABLE_SHADERS 1
+// #define PLATFORM_SUPPORTS_CLIP_DISTANCE 1
+// #define PLATFORM_SUPPORTS_DIAGNOSTIC_BUFFER 1
+// #define PLATFORM_SUPPORTS_DISTANCE_FIELDS 1
+// #define PLATFORM_SUPPORTS_INLINE_RAY_TRACING 0
+// #define PLATFORM_SUPPORTS_MESH_SHADERS_TIER0 1
+// #define PLATFORM_SUPPORTS_MESH_SHADERS_TIER1 1
+// #define PLATFORM_SUPPORTS_PER_PIXEL_DBUFFER_MASK 0
+// #define PLATFORM_SUPPORTS_REAL_TYPES 0
+// #define PLATFORM_SUPPORTS_RENDERTARGET_WRITE_MASK 0
+// #define PLATFORM_SUPPORTS_ROV 1
+// #define PLATFORM_SUPPORTS_SHADER_BUNDLE_DISPATCH 0
+// #define PLATFORM_SUPPORTS_SHADER_ROOT_CONSTANTS 1
+// #define PLATFORM_SUPPORTS_SM6_0_WAVE_OPERATIONS 1
+// #define PLATFORM_SUPPORTS_STATIC_SAMPLERS 1
+// #define PLATFORM_SUPPORTS_UNIFORM_BUFFER_OBJECTS 0
+// #define PLATFORM_SUPPORTS_VERTEX_SHADER_SRVS 1
+// #define PLATFORM_SUPPORTS_VERTEX_SHADER_UAVS 1
+// #define PRIMITIVE_HAS_TILEOFFSET_DATA 1
+// #define PROJECT_ALLOW_GLOBAL_CLIP_PLANE 0
+// #define PROJECT_EXPFOG_MATCHES_VFOG 0
+// #define PROJECT_LOCALFOGVOLUME_APPLYONTRANSLUCENT 0
+// #define PROJECT_MOBILE_DISABLE_VERTEX_FOG 1
+// #define PROJECT_OIT 0
+// #define PROJECT_SUBSTRATE_BACKCOMPATIBILITY 0
+// #define PROJECT_SUPPORT_SKY_ATMOSPHERE 1
+// #define PROJECT_SUPPORT_SKY_ATMOSPHERE_AFFECTS_HEIGHFOG 1
+// #define PROJECT_SUPPORTS_LOCALFOGVOLUME 1
+// #define PROJECT_SUPPORTS_LUMEN 1
+// #define PROJECT_VERTEX_FOGGING_FOR_OPAQUE 0
+// #define RAYCALLABLESHADER 0
+// #define RAYGENSHADER 0
+// #define RAYHITGROUPSHADER 0
+// #define RAYMISSSHADER 0
+// #define SELECTIVE_BASEPASS_OUTPUTS 0
+// #define SHADING_PATH_DEFERRED 1
+// #define SM5_PROFILE 0
+// #define SM6_PROFILE 1
+// #define SUBSTRATE_ADVANCED_DEBUG_ENABLED 0
+// #define SUBSTRATE_ENABLED 0
+// #define SUBSTRATE_MATERIAL_CLOSURE_COUNT 0
+// #define SUBSTRATE_OPAQUE_ROUGH_REFRACTION_ENABLED 0
+// #define SUBSTRATE_STOCHASTIC_LIGHTING_ENABLED 0
+// #define SUBSTRATE_TOP_LAYER_TYPE uint
+// #define SUBTRATE_GBUFFER_FORMAT 0
+// #define SUPPORT_CLOUD_SHADOW_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_CLOUD_SHADOW_ON_SINGLE_LAYER_WATER 0
+// #define SUPPORT_IESPROFILE_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_PRIMITIVE_ALPHA_HOLDOUT 0
+// #define SUPPORT_RECTLIGHT_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_SHADOWED_LOCAL_LIGHT_ON_FORWARD_LIT_TRANSLUCENT 0
+// #define SUPPORT_VSM_FOWARD_QUALITY 0
+// #define SUPPORTS_INDEPENDENT_SAMPLERS 1
+// #define UE_LEGACY_LUMINANCE_FACTORS 0
+// #define UE_LWC_RENDER_TILE_SIZE 2097152.00f
+// #define UE_LWC_RENDER_TILE_SIZE_FMOD_2PI 0.673652053f
+// #define UE_LWC_RENDER_TILE_SIZE_FMOD_PI 0.673652053f
+// #define UE_LWC_RENDER_TILE_SIZE_RCP 4.76837158e-07f
+// #define UE_LWC_RENDER_TILE_SIZE_RSQRT 0.000690533954f
+// #define UE_LWC_RENDER_TILE_SIZE_SQRT 1448.15466f
+// #define USE_DBUFFER 1
+// #define USE_HAIR_TRIANGLE_STRIP 1
+// #define USES_BASE_PASS_VELOCITY 0
+// #define USING_VERTEX_SHADER_LAYER 0
+// #define VELOCITY_ENCODE_DEPTH 1
+// #define VERTEXSHADER 0
+// #define VIEW_HAS_TILEOFFSET_DATA 1
+// #define VIRTUAL_TEXTURE_ANISOTROPIC_FILTERING 0
+// #define WORKGRAPHCOMPUTESHADER 0
+// #define WORKGRAPHROOTSHADER 0
+// #define WORKING_COLOR_SPACE_IS_SRGB 1
+#line 80 "/Engine/Generated/UObject/PCG/ComputeSources/PCGCS_ShaderUtils.PCGCS_ShaderUtils.ush"
+float3 CreateGrid3D(uint ElementIndex, uint NumPoints, uint NumRows, uint NumCols, float3 Min, float3 Max)
+{
+	if (NumRows == 0 || NumCols == 0)
+	{
+		return Min;
+	}
+
+	const uint NumLayers = ceil((0.f + NumPoints) / (NumRows * NumCols));
+
+	if (NumLayers == 0)
+	{
+		return Min;
+	}
+
+	uint3 Index;
+	Index.x = ElementIndex % NumCols;
+	Index.y = (ElementIndex / NumCols) % NumRows;
+	Index.z = ElementIndex / (NumRows * NumCols);
+
+	float3 Spacing = Max - Min;
+	if (NumCols > 1)
+	{
+		Spacing.x /= (NumCols - 1);
+	}
+	if (NumRows > 1)
+	{
+		Spacing.y /= (NumRows - 1);
+	}
+	if (NumLayers > 1)
+	{
+		Spacing.z /= (NumLayers - 1);
+	}
+
+	return Min + Index * Spacing;
+}
+
+#line 116 "/Engine/Generated/UObject/PCG/ComputeSources/PCGCS_ShaderUtils.PCGCS_ShaderUtils.ush"
+float3 CreateGrid3D(uint ElementIndex, uint NumPoints, float3 Min, float3 Max)
+{
+	if (NumPoints == 0)
+	{
+		return Min;
+	}
+
+	const uint NumRows = round(pow(NumPoints, 1.f / 3.f));
+	const uint NumCols = NumRows;
+
+	return CreateGrid3D(ElementIndex, NumPoints, NumRows, NumCols, Min, Max);
+}
+
+#line 7 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+uint3 DI1_PCGCustomKernel_NumThreads;
+
+#line 12 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+float3 DI1_PCGCustomKernel_ComponentBoundsMin;
+float3 DI1_PCGCustomKernel_ComponentBoundsMax;
+
+#line 15 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+uint3 GetNumThreads_DI1_PCGCustomKernel()
+{
+	return DI1_PCGCustomKernel_NumThreads;
+}
+
+#line 40 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+float3 GetComponentBoundsMin_DI1_PCGCustomKernel()
+{
+	return DI1_PCGCustomKernel_ComponentBoundsMin;
+}
+
+#line 45 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+float3 GetComponentBoundsMax_DI1_PCGCustomKernel()
+{
+	return DI1_PCGCustomKernel_ComponentBoundsMax;
+}
+
+#line 19 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+RWByteAddressBuffer DI0_PCGDataCollection_DataCollectionBuffer;
+
+#line 33 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+uint GetNumData_DI0_PCGDataCollection()
+{
+
+	return DI0_PCGDataCollection_DataCollectionBuffer.Load(0) & ~-2147483648;
+}
+
+#line 39 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+uint GetNumElements_DI0_PCGDataCollection(uint InDataIndex)
+{
+	const uint ReadAddress =
+		4 +
+		InDataIndex * 1036 +
+		4 + 4;
+
+	return DI0_PCGDataCollection_DataCollectionBuffer.Load(ReadAddress);
+}
+
+#line 62 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+bool GetThreadData_DI0_PCGDataCollection(uint InThreadIndex, out uint OutDataIndex, out uint OutElementIndex)
+{
+	int ElementIndex = (int)InThreadIndex;
+
+	const uint NumData = GetNumData_DI0_PCGDataCollection();
+	for (uint DataIndex = 0; DataIndex < NumData; ++DataIndex)
+	{
+		const int ElemCount = (int)GetNumElements_DI0_PCGDataCollection(DataIndex);
+
+		if (ElementIndex < ElemCount)
+		{
+			OutDataIndex = DataIndex;
+			OutElementIndex = (uint)ElementIndex;
+			return true;
+		}
+
+		ElementIndex -= ElemCount;
+	}
+
+	OutDataIndex = (uint)-1;
+	OutElementIndex = (uint)-1;
+	return false;
+}
+
+#line 86 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+uint GetNumElements_DI0_PCGDataCollection()
+{
+	uint NumElements = 0;
+
+	const uint NumData = GetNumData_DI0_PCGDataCollection();
+	for (uint DataIndex = 0; DataIndex < NumData; ++DataIndex)
+	{
+		NumElements += GetNumElements_DI0_PCGDataCollection(DataIndex);
+	}
+
+	return NumElements;
+}
+
+#line 106 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void StoreBufferInternal_DI0_PCGDataCollection(uint Address, uint Value)
+{
+	DI0_PCGDataCollection_DataCollectionBuffer.Store(Address, Value);
+}
+
+#line 111 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+uint GetFirstElementAddressInternal_DI0_PCGDataCollection(uint InDataIndex, int InAttributeId)
+{
+	const uint ReadAddress =
+		4 +
+		InDataIndex * 1036 +
+		4 + 4 + 4 +
+		InAttributeId * 8 +
+		4;
+
+	return DI0_PCGDataCollection_DataCollectionBuffer.Load(ReadAddress);
+}
+
+#line 123 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+uint GetAttributeStrideInternal_DI0_PCGDataCollection(uint InDataIndex, int InAttributeId)
+{
+	const uint ReadAddress =
+		4 +
+		InDataIndex * 1036 +
+		4 + 4 + 4 +
+		InAttributeId * 8;
+
+	const uint PackedAttributeIdAndStride = DI0_PCGDataCollection_DataCollectionBuffer.Load(ReadAddress);
+	return PackedAttributeIdAndStride & (0xFFFFFFFF >> 24);
+}
+
+#line 142 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+uint GetDataNumAttributesInternal_DI0_PCGDataCollection(uint InDataIndex)
+{
+	const uint ReadAddress =
+		4 +
+		InDataIndex * 1036 +
+		4;
+
+	return DI0_PCGDataCollection_DataCollectionBuffer.Load(ReadAddress);
+}
+
+#line 152 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetAsExecutedInternal_DI0_PCGDataCollection()
+{
+
+	const uint NumData = GetNumData_DI0_PCGDataCollection();
+	DI0_PCGDataCollection_DataCollectionBuffer.Store(0, NumData | -2147483648);
+}
+
+#line 270 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetUint_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, int AttributeId, uint Value)
+{
+	const uint AttributeAddress = GetFirstElementAddressInternal_DI0_PCGDataCollection(DataIndex, AttributeId);
+	if (AttributeAddress > 0)
+	{
+		DI0_PCGDataCollection_DataCollectionBuffer.Store(AttributeAddress + ElementIndex * 1 * 4, Value);
+	}
+}
+
+#line 279 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetFloat_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, int AttributeId, float Value)
+{
+	const uint AttributeAddress = GetFirstElementAddressInternal_DI0_PCGDataCollection(DataIndex, AttributeId);
+	if (AttributeAddress > 0)
+	{
+		DI0_PCGDataCollection_DataCollectionBuffer.Store(AttributeAddress + ElementIndex * 1 * 4, asuint(Value));
+	}
+}
+
+#line 297 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetFloat3_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, int AttributeId, float3 Value)
+{
+	const uint AttributeAddress = GetFirstElementAddressInternal_DI0_PCGDataCollection(DataIndex, AttributeId);
+	if (AttributeAddress > 0)
+	{
+		DI0_PCGDataCollection_DataCollectionBuffer.Store3(AttributeAddress + ElementIndex * 3 * 4, asuint(Value));
+	}
+}
+
+#line 306 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetFloat4_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, int AttributeId, float4 Value)
+{
+	const uint AttributeAddress = GetFirstElementAddressInternal_DI0_PCGDataCollection(DataIndex, AttributeId);
+	if (AttributeAddress > 0)
+	{
+		DI0_PCGDataCollection_DataCollectionBuffer.Store4(AttributeAddress + ElementIndex * 4 * 4, asuint(Value));
+	}
+}
+
+#line 451 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetPosition_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, float3 Position)
+{
+	SetFloat3_DI0_PCGDataCollection(DataIndex, ElementIndex, 0, Position);
+}
+
+#line 456 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetRotation_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, float4 Rotation)
+{
+	SetFloat4_DI0_PCGDataCollection(DataIndex, ElementIndex, 1, Rotation);
+}
+
+#line 461 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetScale_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, float3 Scale)
+{
+	SetFloat3_DI0_PCGDataCollection(DataIndex, ElementIndex, 2, Scale);
+}
+
+#line 466 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetBoundsMin_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, float3 BoundsMin)
+{
+	SetFloat3_DI0_PCGDataCollection(DataIndex, ElementIndex, 3, BoundsMin);
+}
+
+#line 471 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetBoundsMax_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, float3 BoundsMax)
+{
+	SetFloat3_DI0_PCGDataCollection(DataIndex, ElementIndex, 4, BoundsMax);
+}
+
+#line 476 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetColor_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, float4 Color)
+{
+	SetFloat4_DI0_PCGDataCollection(DataIndex, ElementIndex, 5, Color);
+}
+
+#line 481 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetDensity_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, float Density)
+{
+	SetFloat_DI0_PCGDataCollection(DataIndex, ElementIndex, 6, Density);
+}
+
+#line 486 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetSteepness_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, float Steepness)
+{
+	SetFloat_DI0_PCGDataCollection(DataIndex, ElementIndex, 8, Steepness);
+}
+
+#line 491 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void SetSeed_DI0_PCGDataCollection(uint DataIndex, uint ElementIndex, uint Seed)
+{
+	SetUint_DI0_PCGDataCollection(DataIndex, ElementIndex, 7, Seed);
+}
+
+#line 514 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void RemovePoint_DI0_PCGDataCollection(uint InDataIndex, uint InElementIndex)
+{
+	SetDensity_DI0_PCGDataCollection(InDataIndex, InElementIndex, 340282306073709652508363335590014353408.000000);
+}
+
+#line 520 "/Engine/Generated/DataInterface/DI0_PCGDataCollection/Plugin/PCG/Private/PCGDataCollectionDataInterface.ush"
+void InitializePoint_DI0_PCGDataCollection(uint InDataIndex, uint InElementIndex)
+{
+	SetPosition_DI0_PCGDataCollection(InDataIndex, InElementIndex, 0.0f);
+	SetRotation_DI0_PCGDataCollection(InDataIndex, InElementIndex, float4(0.0f, 0.0f, 0.0f, 1.0f));
+	SetScale_DI0_PCGDataCollection(InDataIndex, InElementIndex, 1.0f);
+	SetBoundsMin_DI0_PCGDataCollection(InDataIndex, InElementIndex, -50.0f);
+	SetBoundsMax_DI0_PCGDataCollection(InDataIndex, InElementIndex, 50.0f);
+	SetColor_DI0_PCGDataCollection(InDataIndex, InElementIndex, 1.0f);
+	SetDensity_DI0_PCGDataCollection(InDataIndex, InElementIndex, 1.0f);
+	SetSeed_DI0_PCGDataCollection(InDataIndex, InElementIndex, 42);
+	SetSteepness_DI0_PCGDataCollection(InDataIndex, InElementIndex, 1.0f);
+
+	int NumAttributesRemaining = (int)GetDataNumAttributesInternal_DI0_PCGDataCollection(InDataIndex);
+
+	for (int AttributeId = 32; AttributeId < 128; ++AttributeId)
+	{
+		const uint Stride = GetAttributeStrideInternal_DI0_PCGDataCollection(InDataIndex, AttributeId);
+
+		if (Stride == 0)
+		{
+
+			continue;
+		}
+
+
+		const uint FirstElementAddress = GetFirstElementAddressInternal_DI0_PCGDataCollection(InDataIndex, AttributeId);
+		const uint ElementAddress = InElementIndex * Stride + FirstElementAddress;
+
+		for (uint Offset = 0; Offset < Stride; Offset += 4)
+		{
+
+			StoreBufferInternal_DI0_PCGDataCollection(ElementAddress + Offset, 0u);
+		}
+
+		if (--NumAttributesRemaining <= 0)
+		{
+
+			break;
+		}
+	}
+}
+
+#line 52 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+uint3 GetNumThreads() { return GetNumThreads_DI1_PCGCustomKernel(); }
+
+#line 57 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+float3 GetComponentBoundsMin() { return GetComponentBoundsMin_DI1_PCGCustomKernel(); }
+float3 GetComponentBoundsMax() { return GetComponentBoundsMax_DI1_PCGCustomKernel(); }
+
+#line 65 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+bool Out_GetThreadData(uint P1, out uint P2, out uint P3) { return GetThreadData_DI0_PCGDataCollection(P1, P2, P3); }
+
+#line 69 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+void Out_SetAsExecutedInternal() { SetAsExecutedInternal_DI0_PCGDataCollection(); }
+
+#line 104 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+void Out_SetPosition(uint P0, uint P1, float3 P2) { SetPosition_DI0_PCGDataCollection(P0, P1, P2); }
+
+#line 106 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+void Out_SetScale(uint P0, uint P1, float3 P2) { SetScale_DI0_PCGDataCollection(P0, P1, P2); }
+
+#line 109 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+void Out_SetColor(uint P0, uint P1, float4 P2) { SetColor_DI0_PCGDataCollection(P0, P1, P2); }
+
+#line 114 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+void Out_RemovePoint(uint P0, uint P1) { RemovePoint_DI0_PCGDataCollection(P0, P1); }
+void Out_InitializePoint(uint P0, uint P1) { InitializePoint_DI0_PCGDataCollection(P0, P1); }
+
+#line 12 "/Engine/Private/ComputeShaderUtils.ush"
+uint GetUnWrappedDispatchGroupId(uint3 GroupId )
+{
+	return GroupId.x + (GroupId.z * (128U) + GroupId.y) * (128U);
+}
+
+#line 21 "/Engine/Private/ComputeShaderUtils.ush"
+uint GetUnWrappedDispatchThreadId(uint3 GroupId , uint GroupThreadIndex , uint ThreadGroupSize)
+{
+	return GetUnWrappedDispatchGroupId(GroupId) * ThreadGroupSize + GroupThreadIndex;
+}
+
+#line 124 "/Plugin/ComputeFramework/Generated/ComputeKernel.ush"
+[numthreads(64, 1, 1)]
+void Custom_HLSL_PCGCustomHLSLKernel(uint3 GroupId : SV_GroupID, uint GroupIndex : SV_GroupIndex)
+{
+
+    if (all(GroupId == 0u) && GroupIndex == 0) Out_SetAsExecutedInternal();
+
+	const uint ThreadIndex = GetUnWrappedDispatchThreadId(GroupId, GroupIndex, 64);
+	if (ThreadIndex >= GetNumThreads().x) return;
+
+    const uint NumElements = 32000;
+
+    const uint NumPoints = NumElements;
+uint ElementIndex; 
+    uint Out_DataIndex;
+    if (!Out_GetThreadData(ThreadIndex, Out_DataIndex, ElementIndex)) return;
+
+
+    Out_InitializePoint(Out_DataIndex, ElementIndex);
+
+#line   0 "/Engine/Generated/UObject/Game/Materials/3DFractalsPCG/PCG_3DFractal.PCG_3DFractal@CustomHLSL_0.PCGCustomHLSLSettings_0.ush"
+
+
+float3 boundsMin = GetComponentBoundsMin();
+float3 boundsMax = GetComponentBoundsMax();
+
+float3 PointPos = CreateGrid3D(ElementIndex, NumPoints, boundsMin, boundsMax);
+float3 normPos = (PointPos - boundsMin) / (boundsMax - boundsMin);
+
+uint maxDepth = 6;
+bool cellEmpty = false;
+float cellScale = 2400.0;
+
+float contrast = 3.0;
+float3 pos = nomrPos;
+
+for(uint depth = 0; depth < maxDepth; depth++)
+{
+    pos *= 3.0;
+    uint3 cell = uint3(int(pos.x), uint(pos.y), uint(pos.z));
+
+    uint countOnes = (cell.x == 1 ? 1 : 0) +
+                    (cell.y == 1 ? 1 : 0) +
+                    (cell.z == 1 ? 1 : 0);
+
+    if(countOnes >= 2)
+    {
+        cellEmpty = true;
+        break;
+    }
+
+    pos = frac(pos);
+    cellScale /= 3.0;
+}
+
+if (cellEmpty)
+{
+    Out_RemovePoint(Out_DataIndex, ElementIndex);
+    return;
+}
+
+float3 worldPos = lerp(boundsMin, boundsMax, normPos);
+
+float3 center = float3(0.5,0.5,0.5);
+
+float distFromCenter = distance(normPos, center);
+
+float centerFade = saturate(distFromCenter / 0.8);
+centerFade = pow(centerFace, contrast);
+
+float3 color = lerp(float3(0.9, 0.5, 0),
+                    float3(0,0,0), centerFade);
+
+Out_SetPosition(Out_DataIndex, ElementIndex, worldPos);
+Out_SetScale(Out_DataIndex, ElementIndex, cellScale);
+Out_SetColor(Out_DataIndex, ElementIndex, float4(color, 1));
+}
+
+/* BASE64_ENV
+BgAAABkAAABWSUVXX0hBU19USUxFT0ZGU0VUX0RBVEEAAAEAAAAeAAAAUFJJTUlUSVZFX0hBU19USUxFT0ZGU0VUX0RBVEEAAAEAAAARAAAASU5TVEFOQ0VEX1NURVJFTwAAAAAAAAsAAABNVUxUSV9WSUVXAAAAAAAAEgAAAE1PQklMRV9NVUxUSV9WSUVXAAAAAAAAFgAAAFBMQVRGT1JNX01BWF9TQU1QTEVSUwADIAAAAAAQEAACAAAAAAAAAGoAAAAJCQAACQkBAAkJAgAJCQMACREEAAkRBQAJCQYABAgAAAQIAQAEBQIABAUDAAQFBAAEBQUABAUGAAQFBwAEBQgABAUJAAQFCgAEBQsABAgMAAQIDQAECA4ABAgPAAQIEAAECBEABAgSAAQIEwAECBQABAUVAAQFFgAEBRcABAUYAAQIGQAECBoABAgbAAQFHAAECB0ABAUeAAQIHwAEBSAABAghAAQFIgAECCMABAUkAAQIJQAEBSYABAgnAAQIKAAECCkABAgqAAQIKwAECCwABAgtAAQFLgAECC8ABAYwAAQFMQAECDIABAUzAAQINAAEBTUABAg2AAQFNwAECDgABAU5AAQIOgAEBjsABAY8AAQFPQAECD4ABAU/AAQIQAAEBUEABAhCAAQFQwAECEQABAVFAAQFRgAEBUcABAVIAAQISQAEBUoABAhLAAQFTAAECE0ABAVOAAQITwAEBVAABAhRAAQIUgAEBVMABAhUAAQFVQAECFYABAZXAAQGWAAEBVkABAhaAAQFWwAECFwABAhdAAQGXgAEBl8ABAdgAAQGYQAEBWIABAAAABgAAABEcmF3UmVjdGFuZ2xlUGFyYW1ldGVycwAAAAAAAAAAAGKm4r8BAAoAAABTdWJzdHJhdGUAAAAAAN0AAABTAHUAYgBzAHQAcgBhAHQAZQBfAE0AYQB0AGUAcgBpAGEAbABUAGUAeAB0AHUAcgBlAEEAcgByAGEAeQAAAFMAdQBiAHMAdAByAGEAdABlAF8AVABvAHAATABhAHkAZQByAFQAZQB4AHQAdQByAGUAAABTAHUAYgBzAHQAcgBhAHQAZQBfAE8AcABhAHEAdQBlAFIAbwB1AGcAaABSAGUAZgByAGEAYwB0AGkAbwBuAFQAZQB4AHQAdQByAGUAAABTAHUAYgBzAHQAcgBhAHQAZQBfAEMAbABvAHMAdQByAGUATwBmAGYAcwBlAHQAVABlAHgAdAB1AHIAZQAAAFMAdQBiAHMAdAByAGEAdABlAF8AQwBsAG8AcwB1AHIAZQBUAGkAbABlAEIAdQBmAGYAZQByAAAAUwB1AGIAcwB0AHIAYQB0AGUAXwBDAGwAbwBzAHUAcgBlAFQAaQBsAGUAQwBvAHUAbgB0AEIAdQBmAGYAZQByAAAAUwB1AGIAcwB0AHIAYQB0AGUAXwBTAGEAbQBwAGwAZQBkAE0AYQB0AGUAcgBpAGEAbABUAGUAeAB0AHUAcgBlAAAA9remxAEABQAAAFZpZXcABQAAAFZpZXcADw0AAFYAaQBlAHcAXwBNAGEAdABlAHIAaQBhAGwAVABlAHgAdAB1AHIAZQBCAGkAbABpAG4AZQBhAHIAVwByAGEAcABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBNAGEAdABlAHIAaQBhAGwAVABlAHgAdAB1AHIAZQBCAGkAbABpAG4AZQBhAHIAQwBsAGEAbQBwAGUAZABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAEkAbgBkAGkAcgBlAGMAdABpAG8AbgBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAEIAcgBpAGMAawBBAG0AYgBpAGUAbgB0AFYAZQBjAHQAbwByAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAEIAcgBpAGMAawBTAEgAQwBvAGUAZgBmAGkAYwBpAGUAbgB0AHMAMAAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABCAHIAaQBjAGsAUwBIAEMAbwBlAGYAZgBpAGMAaQBlAG4AdABzADEAAABWAGkAZQB3AF8AVgBvAGwAdQBtAGUAdAByAGkAYwBMAGkAZwBoAHQAbQBhAHAAQgByAGkAYwBrAFMASABDAG8AZQBmAGYAaQBjAGkAZQBuAHQAcwAyAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAEIAcgBpAGMAawBTAEgAQwBvAGUAZgBmAGkAYwBpAGUAbgB0AHMAMwAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABCAHIAaQBjAGsAUwBIAEMAbwBlAGYAZgBpAGMAaQBlAG4AdABzADQAAABWAGkAZQB3AF8AVgBvAGwAdQBtAGUAdAByAGkAYwBMAGkAZwBoAHQAbQBhAHAAQgByAGkAYwBrAFMASABDAG8AZQBmAGYAaQBjAGkAZQBuAHQAcwA1AAAAVgBpAGUAdwBfAFMAawB5AEIAZQBuAHQATgBvAHIAbQBhAGwAQgByAGkAYwBrAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8ARABpAHIAZQBjAHQAaQBvAG4AYQBsAEwAaQBnAGgAdABTAGgAYQBkAG8AdwBpAG4AZwBCAHIAaQBjAGsAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBWAG8AbAB1AG0AZQB0AHIAaQBjAEwAaQBnAGgAdABtAGEAcABCAHIAaQBjAGsAQQBtAGIAaQBlAG4AdABWAGUAYwB0AG8AcgBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAwAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAxAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAyAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAzAAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgA0AAAAVgBpAGUAdwBfAFYAbwBsAHUAbQBlAHQAcgBpAGMATABpAGcAaAB0AG0AYQBwAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgA1AAAAVgBpAGUAdwBfAFMAawB5AEIAZQBuAHQATgBvAHIAbQBhAGwAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEQAaQByAGUAYwB0AGkAbwBuAGEAbABMAGkAZwBoAHQAUwBoAGEAZABvAHcAaQBuAGcAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEcAbABvAGIAYQBsAEQAaQBzAHQAYQBuAGMAZQBGAGkAZQBsAGQAUABhAGcAZQBBAHQAbABhAHMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBHAGwAbwBiAGEAbABEAGkAcwB0AGEAbgBjAGUARgBpAGUAbABkAEMAbwB2AGUAcgBhAGcAZQBBAHQAbABhAHMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBHAGwAbwBiAGEAbABEAGkAcwB0AGEAbgBjAGUARgBpAGUAbABkAFAAYQBnAGUAVABhAGIAbABlAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8ARwBsAG8AYgBhAGwARABpAHMAdABhAG4AYwBlAEYAaQBlAGwAZABNAGkAcABUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAEcAbABvAGIAYQBsAEQAaQBzAHQAYQBuAGMAZQBGAGkAZQBsAGQAUABhAGcAZQBBAHQAbABhAHMAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEcAbABvAGIAYQBsAEQAaQBzAHQAYQBuAGMAZQBGAGkAZQBsAGQAQwBvAHYAZQByAGEAZwBlAEEAdABsAGEAcwBUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8ARwBsAG8AYgBhAGwARABpAHMAdABhAG4AYwBlAEYAaQBlAGwAZABNAGkAcABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AQQB0AG0AbwBzAHAAaABlAHIAZQBUAHIAYQBuAHMAbQBpAHQAdABhAG4AYwBlAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AQQB0AG0AbwBzAHAAaABlAHIAZQBUAHIAYQBuAHMAbQBpAHQAdABhAG4AYwBlAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBBAHQAbQBvAHMAcABoAGUAcgBlAEkAcgByAGEAZABpAGEAbgBjAGUAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBBAHQAbQBvAHMAcABoAGUAcgBlAEkAcgByAGEAZABpAGEAbgBjAGUAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEEAdABtAG8AcwBwAGgAZQByAGUASQBuAHMAYwBhAHQAdABlAHIAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBBAHQAbQBvAHMAcABoAGUAcgBlAEkAbgBzAGMAYQB0AHQAZQByAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBQAGUAcgBsAGkAbgBOAG8AaQBzAGUARwByAGEAZABpAGUAbgB0AFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUABlAHIAbABpAG4ATgBvAGkAcwBlAEcAcgBhAGQAaQBlAG4AdABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUABlAHIAbABpAG4ATgBvAGkAcwBlADMARABUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFAAZQByAGwAaQBuAE4AbwBpAHMAZQAzAEQAVABlAHgAdAB1AHIAZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAbwBiAG8AbABTAGEAbQBwAGwAaQBuAGcAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAGgAYQByAGUAZABQAG8AaQBuAHQAVwByAGEAcABwAGUAZABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABhAHIAZQBkAFAAbwBpAG4AdABDAGwAYQBtAHAAZQBkAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUwBoAGEAcgBlAGQAQgBpAGwAaQBuAGUAYQByAFcAcgBhAHAAcABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGgAYQByAGUAZABCAGkAbABpAG4AZQBhAHIAQwBsAGEAbQBwAGUAZABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABhAHIAZQBkAEIAaQBsAGkAbgBlAGEAcgBBAG4AaQBzAG8AQwBsAGEAbQBwAGUAZABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABhAHIAZQBkAFQAcgBpAGwAaQBuAGUAYQByAFcAcgBhAHAAcABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGgAYQByAGUAZABUAHIAaQBsAGkAbgBlAGEAcgBDAGwAYQBtAHAAZQBkAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AUAByAGUASQBuAHQAZQBnAHIAYQB0AGUAZABCAFIARABGAAAAVgBpAGUAdwBfAFAAcgBlAEkAbgB0AGUAZwByAGEAdABlAGQAQgBSAEQARgBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAawB5AEkAcgByAGEAZABpAGEAbgBjAGUARQBuAHYAaQByAG8AbgBtAGUAbgB0AE0AYQBwAAAAVgBpAGUAdwBfAFQAcgBhAG4AcwBtAGkAdAB0AGEAbgBjAGUATAB1AHQAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBUAHIAYQBuAHMAbQBpAHQAdABhAG4AYwBlAEwAdQB0AFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGsAeQBWAGkAZQB3AEwAdQB0AFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUwBrAHkAVgBpAGUAdwBMAHUAdABUAGUAeAB0AHUAcgBlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AQwBhAG0AZQByAGEAQQBlAHIAaQBhAGwAUABlAHIAcwBwAGUAYwB0AGkAdgBlAFYAbwBsAHUAbQBlAAAAVgBpAGUAdwBfAEMAYQBtAGUAcgBhAEEAZQByAGkAYQBsAFAAZQByAHMAcABlAGMAdABpAHYAZQBWAG8AbAB1AG0AZQBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEMAYQBtAGUAcgBhAEEAZQByAGkAYQBsAFAAZQByAHMAcABlAGMAdABpAHYAZQBWAG8AbAB1AG0AZQBNAGkAZQBPAG4AbAB5AAAAVgBpAGUAdwBfAEMAYQBtAGUAcgBhAEEAZQByAGkAYQBsAFAAZQByAHMAcABlAGMAdABpAHYAZQBWAG8AbAB1AG0AZQBNAGkAZQBPAG4AbAB5AFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AQwBhAG0AZQByAGEAQQBlAHIAaQBhAGwAUABlAHIAcwBwAGUAYwB0AGkAdgBlAFYAbwBsAHUAbQBlAFIAYQB5AE8AbgBsAHkAAABWAGkAZQB3AF8AQwBhAG0AZQByAGEAQQBlAHIAaQBhAGwAUABlAHIAcwBwAGUAYwB0AGkAdgBlAFYAbwBsAHUAbQBlAFIAYQB5AE8AbgBsAHkAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBEAGkAcwB0AGEAbgB0AFMAawB5AEwAaQBnAGgAdABMAHUAdABCAHUAZgBmAGUAcgBTAFIAVgAAAFYAaQBlAHcAXwBNAG8AYgBpAGwAZQBEAGkAcwB0AGEAbgB0AFMAawB5AEwAaQBnAGgAdABMAHUAdABCAHUAZgBmAGUAcgBTAFIAVgAAAFYAaQBlAHcAXwBIAGEAaQByAFMAYwBhAHQAdABlAHIAaQBuAGcATABVAFQAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBIAGEAaQByAFMAYwBhAHQAdABlAHIAaQBuAGcATABVAFQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBHAEcAWABMAFQAQwBNAGEAdABUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAEcARwBYAEwAVABDAE0AYQB0AFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8ARwBHAFgATABUAEMAQQBtAHAAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBHAEcAWABMAFQAQwBBAG0AcABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABlAGUAbgBMAFQAQwBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaABlAGUAbgBMAFQAQwBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAaABhAGQAaQBuAGcARQBuAGUAcgBnAHkARwBHAFgAUwBwAGUAYwBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaABhAGQAaQBuAGcARQBuAGUAcgBnAHkARwBHAFgARwBsAGEAcwBzAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUwBoAGEAZABpAG4AZwBFAG4AZQByAGcAeQBDAGwAbwB0AGgAUwBwAGUAYwBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaABhAGQAaQBuAGcARQBuAGUAcgBnAHkARABpAGYAZgB1AHMAZQBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaABhAGQAaQBuAGcARQBuAGUAcgBnAHkAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBHAGwAaQBuAHQAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBHAGwAaQBuAHQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGkAbQBwAGwAZQBWAG8AbAB1AG0AZQBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaQBtAHAAbABlAFYAbwBsAHUAbQBlAFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAGkAbQBwAGwAZQBWAG8AbAB1AG0AZQBFAG4AdgBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAaQBtAHAAbABlAFYAbwBsAHUAbQBlAEUAbgB2AFQAZQB4AHQAdQByAGUAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAFMAUAByAG8AZgBpAGwAZQBzAFQAZQB4AHQAdQByAGUAAABWAGkAZQB3AF8AUwBTAFAAcgBvAGYAaQBsAGUAcwBTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAFMAUwBQAHIAbwBmAGkAbABlAHMAVAByAGEAbgBzAG0AaQBzAHMAaQBvAG4AUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAFMAUAByAG8AZgBpAGwAZQBzAFAAcgBlAEkAbgB0AGUAZwByAGEAdABlAGQAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBTAFMAUAByAG8AZgBpAGwAZQBzAFAAcgBlAEkAbgB0AGUAZwByAGEAdABlAGQAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBTAHAAZQBjAHUAbABhAHIAUAByAG8AZgBpAGwAZQBUAGUAeAB0AHUAcgBlAAAAVgBpAGUAdwBfAFMAcABlAGMAdQBsAGEAcgBQAHIAbwBmAGkAbABlAFMAYQBtAHAAbABlAHIAAABWAGkAZQB3AF8AVwBhAHQAZQByAEkAbgBkAGkAcgBlAGMAdABpAG8AbgAAAFYAaQBlAHcAXwBXAGEAdABlAHIARABhAHQAYQAAAFYAaQBlAHcAXwBSAGUAYwB0AEwAaQBnAGgAdABBAHQAbABhAHMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBSAGUAYwB0AEwAaQBnAGgAdABBAHQAbABhAHMAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBJAEUAUwBBAHQAbABhAHMAVABlAHgAdAB1AHIAZQAAAFYAaQBlAHcAXwBJAEUAUwBBAHQAbABhAHMAUwBhAG0AcABsAGUAcgAAAFYAaQBlAHcAXwBMAGEAbgBkAHMAYwBhAHAAZQBXAGUAaQBnAGgAdABtAGEAcABTAGEAbQBwAGwAZQByAAAAVgBpAGUAdwBfAEwAYQBuAGQAcwBjAGEAcABlAEkAbgBkAGkAcgBlAGMAdABpAG8AbgAAAFYAaQBlAHcAXwBMAGEAbgBkAHMAYwBhAHAAZQBQAGUAcgBDAG8AbQBwAG8AbgBlAG4AdABEAGEAdABhAAAAVgBpAGUAdwBfAFYAVABGAGUAZQBkAGIAYQBjAGsAQgB1AGYAZgBlAHIAAABWAGkAZQB3AF8AUABoAHkAcwBpAGMAcwBGAGkAZQBsAGQAQwBsAGkAcABtAGEAcABCAHUAZgBmAGUAcgAAAFYAaQBlAHcAXwBCAGwAdQBlAE4AbwBpAHMAZQBTAGMAYQBsAGEAcgBUAGUAeAB0AHUAcgBlAAAAnMjewQMADgAAAEluc3RhbmNlZFZpZXcADgAAAEluc3RhbmNlZFZpZXcAAAAAAAE1ym0DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+BASE64_ENV */
+/* DIRECT COMPILE
+-directcompile -format=PCD3D_SM6 -entry="Custom_HLSL_PCGCustomHLSLKernel" -shaderPlatformName=PCD3D_SM6 -supportedHardwareMask=0 -cs D:/BA3b/Unreal Projs/Simulacrum-No1-/SimulacrumNo1/Saved/ShaderDebugInfo/PCD3D_SM6/Engine/Transient/PCG_3DFractal/Custom_HLSL_PCGCustomHLSLKernel/FComputeKernelShader/0/ComputeKernel.usf -nocrashreports
+DIRECT COMPILE */
